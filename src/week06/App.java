@@ -24,10 +24,10 @@ public class App {
 		//P1.describe();
 		//P2.describe();
 		//play the game
-		//gonna use some int variables to keep track of my card values
+		//gonna use some Card variables to keep track of my card values
 		Card p1;
 		Card p2;
-		for (int i = 0; i<25; i++) {
+		for (int i = 0; i<26; i++) {
 			p1 = P1.flip();
 			p2 = P2.flip();
 			System.out.print("Player 1 ");
